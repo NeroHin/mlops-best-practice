@@ -1,13 +1,18 @@
 # mlops-best-practice
 MLOps best practice focus on model training performance monitoring, built pipeline, and model serving. Using MLFlow, Sci-kit Learn, Prefect, and BentoML.
 
+![MLOps](resource/README-image.jpg)
+> ref: https://makeameme.org/meme/practice-makes-perfect-b054400446
+
 ## MLOps 的練習場
 最近在研究 MLOps 的相關技術，這邊紀錄一下練習的過程。
 目前使用的技術有：
-- Sci-kit Learn
+- [Sci-kit Learn](https://github.com/scikit-learn/scikit-learn)
   - 經典的機器學習套件
   - 目前會以這個套件來做為基礎的機器學習模型
-    - 如 
+    - 目前會使用 SVM Classifier, Random Forest Classifier, and Logistic Regression
+    - Ensemble model 會使用 Voting Classifier 和 Stacking Classifier
+      - 可以參考作者之前寫的[文章](https://medium.com/@NeroHin/machinelearning-ensemble-learning-之-bagging-boosting-stacking-介紹與實踐-base-on-sci-kit-learn-42743635cfc8)了解 Ensemble Learning 的概念
 - [MLFlow](https://github.com/mlflow/mlflow)
   - 用來追蹤模型訓練的過程，包括但不限於模型參數、訓練資料、訓練時間、訓練結果等等。
 - [Prefect](https://github.com/PrefectHQ/prefect)
