@@ -13,7 +13,7 @@ MLOps best practice focus on model training performance monitoring, built pipeli
   - 資料集使用 [Breast Cancer Wisconsin (Diagnostic) Data Set](https://scikit-learn.org/stable/datasets/index.html#breast-cancer-wisconsin-diagnostic-dataset)
 - [MLFlow](https://github.com/mlflow/mlflow)
   - 用來追蹤模型訓練的過程，包括但不限於模型參數、訓練資料、訓練時間、訓練結果等等。
-- [Prefect](https://github.com/PrefectHQ/prefect)
+- [Prefect Orion](https://github.com/PrefectHQ/prefect)
   - 用來建立模型訓練的 pipeline，並且可以透過 Web GUI 來觀察 pipeline 的狀態。
   - 類似於 Airflow，但是比 Airflow 更簡單易用。
   - 同類型的工具還有 Kubeflow Pipelines、Argo Workflows、dagster 等等。
@@ -21,6 +21,8 @@ MLOps best practice focus on model training performance monitoring, built pipeli
   - 用來將訓練好的模型打包成 API、Container、Serverless 等等，並且可以透過 Web GUI 來觀察模型的狀態。
   - 同類型的工具還有 Kubeflow、MLFlow 等等。
 
+## 架構
+![mlops-best-practice](resource/mlops-best-practice@2x.png)
 ## 環境
 - Python 3.8+
 
