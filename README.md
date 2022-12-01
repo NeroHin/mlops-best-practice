@@ -10,7 +10,7 @@ MLOps best practice focus on model training performance monitoring, built pipeli
 - [Sci-kit Learn](https://github.com/scikit-learn/scikit-learn)
   - 經典的機器學習套件
   - 目前會使用 Support Vector Machine Classifier 來做分類
-  - 資料集使用 [Breast Cancer Wisconsin (Diagnostic) Data Set](https://scikit-learn.org/stable/datasets/index.html#breast-cancer-wisconsin-diagnostic-dataset)
+  - 資料集使用 [Breast Cancer Wisconsin (Diagnostic) Data Set](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html)
 - [MLFlow](https://github.com/mlflow/mlflow)
   - 用來追蹤模型訓練的過程，包括但不限於模型參數、訓練資料、訓練時間、訓練結果等等。
 - [Prefect Orion](https://github.com/PrefectHQ/prefect)
