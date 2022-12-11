@@ -25,8 +25,20 @@ MLOps best practice focus on model training performance monitoring, built pipeli
 ![mlops-best-practice](resource/mlops-best-practice@2x.png)
 ## 環境
 - Python 3.8+
+- mlflow 2.0.1
 
 ## 文章
-1. 【MLOps 練習場 1】使用 MLFlow 監控模型訓練優化成效——以 Sci-kit Learn 為例子
+1. [【MLOps 練習場 1】使用 MLFlow 監控模型訓練優化成效——以 Sci-kit Learn 為例子](https://medium.com/@NeroHin/mlops-%E7%B7%B4%E7%BF%92%E5%A0%B4-1-%E4%BD%BF%E7%94%A8-mlflow-%E7%9B%A3%E6%8E%A7%E6%A8%A1%E5%9E%8B%E8%A8%93%E7%B7%B4%E5%84%AA%E5%8C%96%E6%88%90%E6%95%88-%E4%BB%A5-sci-kit-learn-%E7%82%BA%E4%BE%8B%E5%AD%90-a4d4c3dd7145)
 2. 【MLOps 練習場 2】使用 Prefect 來執行 Pipeline 和 Re-training 吧！
 3. 【MLOps 練習場 3】使用 BentoML 將模型打包投入服務
+
+## How to run
+1. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+2. Run MLFlow server with Docker
+```bash
+cd mlops-best-practice
+docker run
+```
